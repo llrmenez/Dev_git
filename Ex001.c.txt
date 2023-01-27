@@ -1,6 +1,16 @@
 #include<stdio.h>
-int main (){
+int main (){ //Programa Principal
+	//Declaração de variáveis
+	int num1, num2, teste;
+	printf("Enter a number one: ");
+	scanf("%d", &num1);
+	printf("Enter a number two: ");
+	scanf("%d", &num2);
+	teste=(num1+num2)/2;
+	if(teste>10)
+		printf("Sua media foi maior que 10");
+	else	
+		printf("Sua media ficou menor que 10");
 
-	printf("Hello World");
 	return 0;
 }
